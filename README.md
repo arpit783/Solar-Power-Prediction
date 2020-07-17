@@ -5,12 +5,14 @@ Briefly, the goal of the regression model is to build a mathematical equation th
 
 OBJECTIVE
 The objective for the project was to predict solar power generation for the first 28 days of October 2019,  i.e. 1st October 2019 to 28th October 2019, using the weather data for the same period.
+
 HYPOTHESIS
 A strong correlation between the various weather parameters (like rainfall type, humidity, temperature, atmospheric pressure) and solar power generation.
 Wind gust, UV index, ozone and precipitation intensity have some relation with other weather parameters and thus that relation was exploited in imputing missing values in data preprocessing phase using linear regression.  
 
 MATERIAL AND METHODS
 Data Preprocessing- Since the data provided for the power forecast was very noisy data preprocessing phase was very necessary. The involved processes were - 
+
 Missing value imputation - Using other weather data some weather parameters, in which there were outliner and missing value, were imputed using linear regression.
 Feature Extraction- Dimensionality was reduced by eliminating the features which were not present in most of the training set phase.
 Mean- Features like pressure were more missing on an irregular basis and can be replaced by the mean of pressure.
